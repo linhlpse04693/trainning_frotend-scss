@@ -1,0 +1,37 @@
+.collection {
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+
+  .item {
+    width: 400px;
+    margin: 15px;
+    background-color: #00cdcd;
+    text-align: center;
+    padding: 30px 40px;
+    box-sizing: border-box;
+
+    .icon {
+      padding: 0.7em;
+      border-radius: 50%;
+      background-color: #ffffff;
+      margin: auto;
+    }
+
+    .heading {
+      color: #ffffff;
+    }
+
+    .text {
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    &:hover {
+      border-bottom: 3px solid #ffff00;
+      .icon {
+        color: #ffff00;
+      }
+    }
+  }
+}
