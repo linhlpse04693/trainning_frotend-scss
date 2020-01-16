@@ -1,9 +1,7 @@
-html,body {
-  margin: 0;
-}
-
+html,
 body {
-  background: url('~images/gray-bg.jpg') repeat-x fixed;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -18,4 +16,3 @@ ul {
 p {
   margin: 0;
 }
-

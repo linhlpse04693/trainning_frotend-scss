@@ -35,9 +35,7 @@
     content: "";
     position: absolute;
     bottom: 0;
-    right: 0;
     left: 0;
-    height: 0;
     border-right: 100vw solid #fff;
     border-top: 200px solid transparent;
     width: 0;
@@ -106,6 +104,7 @@
 .business {
   display: flex;
   padding: 100px 0;
+  background: url("~images/gray-bg.jpg") no-repeat;
 
   .col {
     width: 50%;
