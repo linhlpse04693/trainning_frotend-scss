@@ -1,0 +1,16 @@
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.clearfix {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
